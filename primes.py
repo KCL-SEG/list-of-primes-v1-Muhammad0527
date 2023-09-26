@@ -6,7 +6,6 @@ def primes(number_of_primes):
     count = 0
     num = 2
     while count < number_of_primes:
-        #num = number_of_primes[count]
         prime = True
         for i in range (num-1, 1, -1):
             if num % i == 0:
